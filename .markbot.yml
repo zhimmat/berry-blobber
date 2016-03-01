@@ -1,0 +1,25 @@
+repo: "berry-blobber"
+canvasCourse: "467503"
+canvasAssignment: "4202525"
+
+naming: true
+commits: 1
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+
+js:
+  - path: "js/main.js"
+    valid: true
+    bestPractices: true
+    search:
+      - 'function'
+      - 'forEach'
+      - 'document.write'
+      - '\+'
+
+screenshots:
+  - path: "index.html"
+    sizes: [320]
