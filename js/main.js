@@ -34,7 +34,7 @@ var redCurrant = {
 // ##########################################################
 
 
-// Write your function in this space
+// Write your function here, name it `writeBerries`
 
 
 // ##########################################################

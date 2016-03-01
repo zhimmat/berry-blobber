@@ -7,8 +7,7 @@ commits: 1
 
 html:
   - path: "index.html"
-    valid: true
-    bestPractices: true
+    locked: true
 
 js:
   - path: "js/main.js"
