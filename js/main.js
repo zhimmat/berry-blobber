@@ -43,8 +43,22 @@ var writeBerries = function (berries) {
     document.write('<dl>');
     document.write('<dt>Grows on a shrub?</dt>');
     document.write('<dd>');
-  }
-}
+
+    if (berry.onShrub) {
+      document.write('yes');
+    } else {
+      document.write('no');
+    }
+
+    document.write('</dd>');
+    document.write('<dt>Energy</dt>');
+    document.write('<dd>' + berry.energy + ' kj</dd>');
+    document.write('<dt>Carbs</dt>');
+    document.write('<dd>' + berry.carbs + ' g</dd>');
+    document.write('<dt>Protien</dt>');
+    document.write('<dd>' + berry.protien + ' g</dd>');
+  });
+};
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
